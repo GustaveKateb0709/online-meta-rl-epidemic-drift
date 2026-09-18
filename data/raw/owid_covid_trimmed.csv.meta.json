@@ -1,0 +1,29 @@
+{
+  "source_url": "https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/owid-covid-data.csv",
+  "downloaded_at_utc": "2026-09-15T16:21:09Z",
+  "n_rows": 13410,
+  "n_cols": 6,
+  "columns": [
+    "location",
+    "date",
+    "new_cases",
+    "new_cases_smoothed",
+    "total_cases",
+    "population"
+  ],
+  "size_mb": 0.641,
+  "sha256": "eb4f55f5a80f33350d257c018a8286176f5eded90797e9f29484ad4907a121fd",
+  "note": "OWID COVID-19 daily, trimmed to 8 locations and date>=2020-01-01; new_cases are daily confirmed cases, new_cases_smoothed is the 7-day average.",
+  "raw_n_rows_before_trim": 429435,
+  "locations": [
+    "World",
+    "United States",
+    "China",
+    "Japan",
+    "Germany",
+    "Brazil",
+    "India",
+    "United Kingdom"
+  ],
+  "date_min": "2020-01-01"
+}

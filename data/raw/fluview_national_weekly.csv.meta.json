@@ -1,0 +1,29 @@
+{
+  "source_url": "https://api.delphi.cmu.edu/epidata/fluview/",
+  "downloaded_at_utc": "2026-09-15T15:58:06Z",
+  "n_rows": 782,
+  "n_cols": 12,
+  "columns": [
+    "region",
+    "epiweek",
+    "release_date",
+    "issue",
+    "lag",
+    "ili",
+    "wili",
+    "num_ili",
+    "num_patients",
+    "num_providers",
+    "year",
+    "week"
+  ],
+  "size_mb": 0.059,
+  "sha256": "6bec15ca37766f499abc6c9c044ed9f1666411b0776470f640e1ff2919364b13",
+  "note": "Delphi Epidata FluView ILINet weekly; ili and wili are percentages of outpatient visits; num_ili/num_patients are raw counts.",
+  "regions": [
+    "nat"
+  ],
+  "n_regions": 1,
+  "epiweek_span": "201001-202452",
+  "epiweeks_requested": "201001-202452"
+}

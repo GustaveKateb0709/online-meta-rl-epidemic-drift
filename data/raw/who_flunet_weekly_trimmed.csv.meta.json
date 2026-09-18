@@ -1,0 +1,26 @@
+{
+  "source_url": "https://xmart-api-public.who.int/FLUMART/VIW_FNT?$format=csv",
+  "downloaded_at_utc": "2026-09-15T15:58:18Z",
+  "n_rows": 128016,
+  "n_cols": 10,
+  "columns": [
+    "WHOREGION",
+    "COUNTRY_CODE",
+    "ISO_WEEKSTARTDATE",
+    "ISO_YEAR",
+    "ISO_WEEK",
+    "SPEC_PROCESSED_NB",
+    "INF_A",
+    "INF_B",
+    "INF_ALL",
+    "RSV"
+  ],
+  "size_mb": 5.794,
+  "sha256": "a705ca03f9f270709163f111a2ce4db1b58f6c6b085a2a2d4e83d978cd314978",
+  "note": "WHO FluNet country-week laboratory surveillance, trimmed to ISO_YEAR>=2015 and 10 analysis columns; INF_ALL = all influenza positive specimens, SPEC_PROCESSED_NB = specimens processed.",
+  "raw_n_rows_before_trim": 188389,
+  "raw_size_mb": 32.038,
+  "n_who_regions": 6,
+  "n_countries": 186,
+  "year_span": "2015-2026"
+}

@@ -1,0 +1,336 @@
+{
+ "generated": "2026-09-18",
+ "n_files": 66,
+ "files": [
+  {
+   "path": ".gitignore",
+   "bytes": 230,
+   "md5": "09157cb638b8c2a4682f3ba5340beda2"
+  },
+  {
+   "path": "LICENSE",
+   "bytes": 1073,
+   "md5": "bb6a402639fd38a255874c32dcb82bda"
+  },
+  {
+   "path": "README.md",
+   "bytes": 4725,
+   "md5": "6abf5e1f676c4cd8c43c75e825775032"
+  },
+  {
+   "path": "data/raw/fluview_national_weekly.csv",
+   "bytes": 59095,
+   "md5": "1087050cfac386114f93160982a41706"
+  },
+  {
+   "path": "data/raw/fluview_national_weekly.csv.meta.json",
+   "bytes": 703,
+   "md5": "fe34d0e6d6d767a5b7b74056ccd8d2b5"
+  },
+  {
+   "path": "data/raw/fluview_states_weekly.csv",
+   "bytes": 277848,
+   "md5": "f02a8d9ed10aea65a99c9622cb73535d"
+  },
+  {
+   "path": "data/raw/fluview_states_weekly.csv.meta.json",
+   "bytes": 753,
+   "md5": "8b177f39eb8b795373557c84917277d9"
+  },
+  {
+   "path": "data/raw/owid_covid_trimmed.csv",
+   "bytes": 641041,
+   "md5": "e1c05d448b887664886a71d45fddbec7"
+  },
+  {
+   "path": "data/raw/owid_covid_trimmed.csv.meta.json",
+   "bytes": 787,
+   "md5": "82202d5ae843f3db5d535e7d5ce5f331"
+  },
+  {
+   "path": "data/raw/who_flunet_weekly_trimmed.csv",
+   "bytes": 5793520,
+   "md5": "5e4fc87336c9281039483bab258a8795"
+  },
+  {
+   "path": "data/raw/who_flunet_weekly_trimmed.csv.meta.json",
+   "bytes": 786,
+   "md5": "e69577cdff043d0a5c06944e690ebfbe"
+  },
+  {
+   "path": "experiments/__init__.py",
+   "bytes": 0,
+   "md5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+   "path": "experiments/run_main.py",
+   "bytes": 15221,
+   "md5": "0c39e44cd91684e4b450ea445c124d40"
+  },
+  {
+   "path": "figures/fig1_motivation.png",
+   "bytes": 301325,
+   "md5": "6b362cbc8424eec91b2e6fff63b86777"
+  },
+  {
+   "path": "figures/fig2_boundary_condition.png",
+   "bytes": 133192,
+   "md5": "92ea3c2fb217c71797bd55292b14e496"
+  },
+  {
+   "path": "figures/fig3_gating.png",
+   "bytes": 65410,
+   "md5": "e2cdeed099e6ea7188cf54db23301c80"
+  },
+  {
+   "path": "figures/fig4_drift_heterogeneity.png",
+   "bytes": 189550,
+   "md5": "947a9203b5383d7343ff94752deb5760"
+  },
+  {
+   "path": "figures/fig5_pii_dose_response.png",
+   "bytes": 85262,
+   "md5": "4e36ed749f70bc9c4bfa722c214b2580"
+  },
+  {
+   "path": "figures/figS1_diagnostic_ladder.png",
+   "bytes": 102751,
+   "md5": "fb583f9d948ee0f55b55a25175134ca7"
+  },
+  {
+   "path": "requirements.txt",
+   "bytes": 406,
+   "md5": "8dbec56dd9d122f4ec6d9135a8ac0fec"
+  },
+  {
+   "path": "results/paper_numbers.json",
+   "bytes": 40303,
+   "md5": "6a73392e0309430b456bf90a10de63a3"
+  },
+  {
+   "path": "results/robust_contrasts.json",
+   "bytes": 10991,
+   "md5": "c297e439dfda1ddf4dd9e802bbae0fd4"
+  },
+  {
+   "path": "scripts/00_smoke_meta_rl.py",
+   "bytes": 4265,
+   "md5": "5d0a270ddc47f1fdb4bcd82091a76b23"
+  },
+  {
+   "path": "scripts/00b_diag_meta_rl.py",
+   "bytes": 4723,
+   "md5": "8d0ee749b45863d52d738ee4598436e6"
+  },
+  {
+   "path": "scripts/00c_meta_learning_curve.py",
+   "bytes": 3611,
+   "md5": "d9c491d61d85c3e542615c578cbd918f"
+  },
+  {
+   "path": "scripts/00d_where_meta_wins.py",
+   "bytes": 3041,
+   "md5": "0c0a5ff9f13368ecc4c93ecca84b3cd6"
+  },
+  {
+   "path": "scripts/00e_zgrad_validation.py",
+   "bytes": 5656,
+   "md5": "bb7ccafcbf02e68d82dc560884ee52a0"
+  },
+  {
+   "path": "scripts/00f_collapse_check.py",
+   "bytes": 4143,
+   "md5": "1a69171f0bda66ca6a3e4dc6ded020cd"
+  },
+  {
+   "path": "scripts/00g_diag_ladder.py",
+   "bytes": 20946,
+   "md5": "5e65e72445173e2649b87dc493e9e20d"
+  },
+  {
+   "path": "scripts/00h_scale_calibration.py",
+   "bytes": 6492,
+   "md5": "e14086d14ca243b8fce9a6162da490a0"
+  },
+  {
+   "path": "scripts/00i_commitment_selftest.py",
+   "bytes": 7863,
+   "md5": "c4036db71c1fee25ae3e32f31610b8b4"
+  },
+  {
+   "path": "scripts/00k_robust_diagnosis.py",
+   "bytes": 9901,
+   "md5": "2fc2ac9172a6e05fa2380b97f8fc2006"
+  },
+  {
+   "path": "scripts/01_fetch_public_data.py",
+   "bytes": 14107,
+   "md5": "10167f5b39bdc984af3a94c514b40bb3"
+  },
+  {
+   "path": "scripts/02_drift_empirics.py",
+   "bytes": 31524,
+   "md5": "475678bdc914314c50de963f9808936b"
+  },
+  {
+   "path": "scripts/03_build_contracts.py",
+   "bytes": 17693,
+   "md5": "7ec09df2109efb44775382da47dd0020"
+  },
+  {
+   "path": "scripts/analyze_matrix.py",
+   "bytes": 15803,
+   "md5": "bd396b585848975172f1691a7e4c54fc"
+  },
+  {
+   "path": "scripts/build_docx.py",
+   "bytes": 10296,
+   "md5": "406f8f9acc8491c2be20a979d0481c83"
+  },
+  {
+   "path": "scripts/export_figures.py",
+   "bytes": 3646,
+   "md5": "bd9b986294e4564fe4a2af28061607f4"
+  },
+  {
+   "path": "scripts/make_figures.py",
+   "bytes": 18542,
+   "md5": "9f8704110b8a4a13c52af07c05fcc058"
+  },
+  {
+   "path": "scripts/make_s3_table.py",
+   "bytes": 7335,
+   "md5": "96e531df1c75f3e4e6e6fad172de8174"
+  },
+  {
+   "path": "scripts/make_supplementary.py",
+   "bytes": 6729,
+   "md5": "34884650186a1f99fd1de530651f1047"
+  },
+  {
+   "path": "scripts/robust_contrasts.py",
+   "bytes": 8326,
+   "md5": "ede4a6e5c180f5e5b32708b71c83b194"
+  },
+  {
+   "path": "scripts/run_matrix.py",
+   "bytes": 16395,
+   "md5": "89c0beb417cbc29888fcf17cb2661eb3"
+  },
+  {
+   "path": "scripts/test_history_len.py",
+   "bytes": 3816,
+   "md5": "73d93a3bdb1ad0ae90d65b3bfb86c41d"
+  },
+  {
+   "path": "scripts/validate_achievable.py",
+   "bytes": 6322,
+   "md5": "dcb4ebf8195436c67c601b2f6a776ec2"
+  },
+  {
+   "path": "scripts/validate_env.py",
+   "bytes": 13541,
+   "md5": "242e6ac6ff07694ba336acc1993adbfe"
+  },
+  {
+   "path": "scripts/validate_families.py",
+   "bytes": 4247,
+   "md5": "f8026b6d42b24d9f33845f3f2b59999a"
+  },
+  {
+   "path": "scripts/zgrad_common.py",
+   "bytes": 825,
+   "md5": "153d62c22e2ed5e8924bc7dc1570a891"
+  },
+  {
+   "path": "source_data/fig1_panelA_real_series.csv",
+   "bytes": 28443,
+   "md5": "ecc5d24ff5e3750cce77be804d154ff5"
+  },
+  {
+   "path": "source_data/fig1_panelB_level_distributions.csv",
+   "bytes": 41708,
+   "md5": "b93d2349ed130d1b99d902e30723483c"
+  },
+  {
+   "path": "source_data/fig1_panelC_level_ecdf.csv",
+   "bytes": 4139,
+   "md5": "6cb94028008179abb70156376ae4b428"
+  },
+  {
+   "path": "source_data/fig2_boundary_condition.csv",
+   "bytes": 17130,
+   "md5": "71f2ab7abb293973b9c0c58652d7676a"
+  },
+  {
+   "path": "source_data/fig3_gating.csv",
+   "bytes": 607,
+   "md5": "deda9569e5409d9765d984cf82d3f707"
+  },
+  {
+   "path": "source_data/fig4_drift_heterogeneity.csv",
+   "bytes": 3319,
+   "md5": "92ed2c34346b32f6f346add52d7f46b7"
+  },
+  {
+   "path": "source_data/fig5_pii_dose_response.csv",
+   "bytes": 750,
+   "md5": "468bd63e0b0e5458790630d220c08b23"
+  },
+  {
+   "path": "source_data/figS1_diagnostic_ladder.csv",
+   "bytes": 182,
+   "md5": "d25c2076b401a8cc0242c500977e2bfd"
+  },
+  {
+   "path": "source_data/real_changepoints.csv",
+   "bytes": 24711,
+   "md5": "f00781fb813ebd58b3edaf48dfb19c7e"
+  },
+  {
+   "path": "src/__init__.py",
+   "bytes": 0,
+   "md5": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  {
+   "path": "src/baselines.py",
+   "bytes": 19587,
+   "md5": "6d9729fb51278a53baa3b03312b0d67c"
+  },
+  {
+   "path": "src/commitment.py",
+   "bytes": 5069,
+   "md5": "5d9c5cf1e89baf840aed34115a3bf1dc"
+  },
+  {
+   "path": "src/common.py",
+   "bytes": 4740,
+   "md5": "f10343de93c906578b7ffc9440197d44"
+  },
+  {
+   "path": "src/env.py",
+   "bytes": 18822,
+   "md5": "cd05f74a34777601d3f93626ef16cc14"
+  },
+  {
+   "path": "src/gating.py",
+   "bytes": 12890,
+   "md5": "6d39ecec3e76652d27ad1d52875d264e"
+  },
+  {
+   "path": "src/identifiability.py",
+   "bytes": 6044,
+   "md5": "9e21d40e879c241dc5ff252a7585b232"
+  },
+  {
+   "path": "src/meta_rl.py",
+   "bytes": 21562,
+   "md5": "be696b8660d419bb59a07cbc73818c47"
+  },
+  {
+   "path": "src/plotstyle.py",
+   "bytes": 4032,
+   "md5": "26f435932c5a8aff5c6cccc17523d414"
+  }
+ ]
+}

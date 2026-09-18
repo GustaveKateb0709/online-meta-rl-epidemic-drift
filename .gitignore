@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+._*
+
+# editor
+.vscode/
+.idea/
+*.swp
+
+# local scratch
+_qc_work/
+exported/
+*.log
+
+# intermediate agent checkpoints are not part of the release
+*.pkl
+*.pt
+*.zip
