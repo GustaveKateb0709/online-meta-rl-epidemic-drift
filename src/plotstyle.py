@@ -1,8 +1,8 @@
 """Shared figure style for the manuscript.
 
-The target journal accepts TIFF or EPS at 300-600 dpi, with a figure width
-between 789 and 2250 pixels, text set only in Arial, Times or Symbol at 8-12 pt,
-and no author names, article title or figure number inside the image file.
+Submission-ready figures are TIFF at 300 dpi, with a figure width between 789
+and 2250 pixels, text set only in Arial, Times or Symbol at 8-12 pt, and no
+author names, article title or figure number inside the image file.
 
 Import ``apply_style()`` at the top of every figure script so that all panels
 share one look and one set of sizes.
