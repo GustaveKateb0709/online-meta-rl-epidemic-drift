@@ -1,7 +1,7 @@
 """Convert rendered figures into submission-ready TIFF files.
 
-The target journal requires TIFF or EPS at 300-600 dpi, a figure width between
-789 and 2250 pixels (at 300 dpi), a file size below 10 MB, and no title, author
+Submission-ready figures are TIFF at 300 dpi, a figure width between 789 and
+2250 pixels, a file size below 10 MB, and no title, author
 name or figure number inside the image. This script takes the PNG/PDF rendered
 by the figure scripts, rebuilds a TIFF at the required resolution, verifies the
 geometry and size, and writes a machine-readable report.
