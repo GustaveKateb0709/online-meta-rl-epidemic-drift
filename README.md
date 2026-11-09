@@ -1,4 +1,4 @@
-# Online regime inference for meta-reinforcement learning in epidemic intervention
+# Adapting to drift you cannot see: passive identifiability decides whether online regime inference pays off in epidemic control
 
 Code and data accompanying the manuscript *"Adapting to drift you cannot see:
 online regime inference for meta-reinforcement learning in epidemic
